@@ -36,7 +36,7 @@ jobs:
         name: Build and push Docker image
         uses: docker/build-push-action@v5
         with:
-          context: .
+          context: ./primecare-html
           push: true
           tags: joehaddy/project-apps:latest
           
