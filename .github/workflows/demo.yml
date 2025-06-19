@@ -37,4 +37,4 @@ jobs:
           context: ./primecare-html  # assumes your Dockerfile is in this folder
           file: ./primecare-html/Dockerfile
           push: true
-          tags: joehaddy/project-apps:latest
+          tags: joehaddy/github-actions-project-apps:latest
